@@ -12,7 +12,7 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index'));
 });
 
 // get anything that hasn't already been matched
